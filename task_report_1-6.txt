@@ -1,0 +1,173 @@
+1. Choose a reputable free VPN service and sign up.
+
+
+I selected Proton VPN as my VPN service. It is a reputable, privacy-focused VPN provider developed by the makers of ProtonMail. It is known for:
+
+
+Its strict no-log policy
+
+
+Availability of a free plan
+
+
+Transparent Swiss jurisdiction (strong privacy laws)
+
+
+Open-source applications
+
+
+I signed up using my email address through the official website https://protonvpn.com. No credit card was required for the free plan.
+
+
+
+2. Download and install the VPN client.
+
+I downloaded the official Proton VPN desktop client for Windows from their website to ensure authenticity and safety.
+
+Installation steps included:
+
+
+Launching the installer
+
+
+Granting permission
+
+
+Logging in with my Proton credentials
+
+
+Once installed, the Proton VPN interface opened with access to a list of global VPN servers.
+
+
+
+3. Connect to a VPN server (choose closest or any location).
+
+
+From the Proton VPN client:
+
+
+I connected to the Poland Free Server #13 (PL-FREE#13).
+
+
+The connection was successful and confirmed by:
+
+
+A green "Connected" status
+
+
+Real-time upload/download graphs
+
+
+Server info including IP, uptime, and speed
+
+
+Although Japan isn’t the closest, I selected it to test international routing and privacy.
+
+
+
+4. Verify your IP address has changed (use whatismyipaddress.com).
+
+
+Before VPN:
+
+
+My IP was from India  103.177.174.127, based on my real ISP.
+
+
+After connecting to Proton VPN:
+
+
+I visited https://whatismyipaddress.com
+
+
+My new IP was shown as 149.102.244.113
+
+
+Location: Warsaw, Mazowieckie, Poland
+
+
+ISP: DataCamp Limited
+
+
+Hostname: PL-free-13.protonvpn.net
+
+
+
+✅ This confirms my IP address changed, and my real location was successfully masked.
+
+
+
+
+5. Browse a website to confirm traffic is encrypted.
+
+
+
+While still connected to the VPN:
+
+
+I opened https://www.wikipedia.org
+
+
+In the browser (Google Chrome), I clicked the lock icon in the address bar
+
+
+Certificate and encryption details showed:
+
+
+HTTPS active (secure)
+
+
+TLS version: TLS 1.3
+
+
+Issued by: GlobalSign
+
+
+
+✅ This confirms traffic was encrypted end-to-end using a secure HTTPS connection.
+
+
+
+6. Disconnect VPN and compare browsing speed and IP.
+
+
+
+After completing the above steps, I disconnected Proton VPN.
+
+
+✅ IP Comparison:
+
+
+Before: India IP 103.177.174.127
+
+
+During VPN: Japan IP 149.102.244.113
+
+
+After disconnect: My Indian IP returned
+
+
+
+✅ Speed Comparison:
+
+
+While connected to the VPN (Poland server), browsing speed slightly decreased due to:
+
+
+Geographic distance
+
+
+Free server congestion
+
+
+Before connecting VPN - download speed in Mbps - 93.52 with upload speed 69.38 Mbps.
+
+
+After connecting VPN - download speed in Mbps - 80.05 with upload speed 68.09 Mbps.
+
+
+After disconnecting, browsing speed improved and websites loaded faster. This performance impact is expected when using free VPNs due to bandwidth limits.
+
+
+
+All findings are attached as screenshots in the folder.

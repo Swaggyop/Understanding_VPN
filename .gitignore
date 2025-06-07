@@ -1,0 +1,22 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node-related files (if you use npm later)
+node_modules/
+npm-debug.log
+
+# Ignore Python cache files (if you run any .py scripts)
+__pycache__/
+*.pyc
+
+# Ignore temporary or backup files
+*.log
+*.bak
+*.tmp
+
+# Ignore VS Code settings (if you use it)
+.vscode/
+
+# Ignore OS-generated files
+desktop.ini

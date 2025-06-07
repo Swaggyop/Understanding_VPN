@@ -1,0 +1,106 @@
+Research VPN encryption and privacy features -
+
+
+A Virtual Private Network (VPN) ensures online privacy and security by encrypting your internet traffic and routing it through a secure server. Below are the key encryption techniques and privacy features used by most modern VPNs like ProtonVPN and Windscribe:
+
+
+🔐 1. Encryption Standards Used in VPNs
+
+🔸 AES-256 Bit Encryption
+
+Most VPNs use AES (Advanced Encryption Standard) with 256-bit keys, which is considered military-grade encryption.
+
+
+It would take billions of years for even supercomputers to crack this encryption by brute force.
+
+
+It secures data packets so that they can't be read or altered during transmission.
+
+
+
+🔸 RSA Encryption
+
+VPNs use RSA (commonly 2048 or 4096-bit) for securely exchanging encryption keys between your device and the VPN server.
+
+
+
+🔸 Perfect Forward Secrecy (PFS)
+
+PFS ensures that even if one session key is compromised, past and future sessions remain secure.
+
+
+It generates a new encryption key for every session.
+
+
+
+🔐 2. VPN Protocols That Secure Traffic
+
+VPNs rely on specific protocols to establish secure and stable tunnels. These include:
+
+
+🔹 OpenVPN
+
+Open-source, highly secure protocol used by ProtonVPN and many others.
+
+
+Supports both UDP (faster) and TCP (more stable) transport layers.
+
+
+
+🔹 WireGuard
+
+A newer, faster protocol with modern cryptography.
+
+
+Used by ProtonVPN and others for low-latency, high-speed encryption.
+
+
+
+🔹 IKEv2/IPSec
+
+Good for mobile devices because it reconnects quickly when switching networks (e.g., from Wi-Fi to mobile data).
+
+
+Uses strong encryption and is stable over time.
+
+
+
+🛡️ 3. Privacy Features in VPNs
+
+✅ IP Address Masking
+
+Hides your real IP and replaces it with one from the VPN server, making you untraceable online.
+
+
+✅ No-Logs Policy
+
+Trusted VPNs like ProtonVPN and Windscribe have a strict no-logs policy, meaning they do not store user activity or connection logs.
+
+
+✅ DNS Leak Protection
+
+Prevents your DNS queries from leaking outside the VPN tunnel.
+
+
+This stops your ISP or any third party from seeing what websites you visit.
+
+
+✅ Kill Switch
+
+If the VPN connection drops, the kill switch cuts your internet access immediately, preventing any data from leaking unprotected.
+
+
+✅ Split Tunneling
+
+Allows you to choose which apps or sites use the VPN and which don't.
+
+
+
+Example: Your browser goes through the VPN, but Spotify uses your normal internet.
+
+
+
+🧠 In Simple Terms:
+
+VPN encryption locks your internet traffic in a secure vault and sends it through a private tunnel. Meanwhile, privacy features ensure no one can track what you do, where you're browsing from, or intercept your sensitive information.
+
